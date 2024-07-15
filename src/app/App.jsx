@@ -1,12 +1,13 @@
-import { Flex } from "@mantine/core";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { routes } from "../routes/Routes";
 
 function App() {
+
+  const browserRouter = createBrowserRouter(routes)
+
   return (
-    <>
-      <Flex align={"center"} justify={"center"} h={"100dvh"}>
-        My Swantham Templete
-      </Flex>
-    </>
+    
+    <RouterProvider router={browserRouter} />
   );
 }
 
