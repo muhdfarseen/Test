@@ -10,13 +10,13 @@ const Loadable = (Component) => (props) => (
 );
 
 // Lazy loading components
-const HomePage = Loadable(lazy(() => import("../components/Pages/HomePage").then(module => ({ default: module.HomePage }))));
+const Dashboard = Loadable(lazy(() => import("../components/Pages/Dashboard").then(module => ({ default: module.Dashboard }))));
 
 
 export const routes = [
   {
     path: "/",
-    element: <HomePage />
+    element: <Dashboard />
   },
   
   {
