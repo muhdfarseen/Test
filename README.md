@@ -3,7 +3,7 @@
 ## To run on your system
 
 - Step 0
-Ensure Nodejs is installed in your system
+  -  Ensure Nodejs is installed in your system
 
 - Step 1
 ```
