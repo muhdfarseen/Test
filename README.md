@@ -1,21 +1,21 @@
 # React + Vite Project
 
-to run on your system
+## To run on your system
 
->Step 0
+- Step 0
 Ensure Nodejs is installed in your system
 
->Step 1
+- Step 1
 ```
 npm install
 ```
 
->Step 2
+- Step 2
 ```
 npm run dev
 ```
 
->Step 2
+- Step 3
 you can now see the website in : 
 
 ```http://localhost:3000/```
