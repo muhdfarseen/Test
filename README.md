@@ -16,6 +16,6 @@ npm run dev
 ```
 
 - Step 3
-  -  you can now see the website in : 
+  -  you can now see the website in the URL : 
 
   - ```http://localhost:3000/```
